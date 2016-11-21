@@ -11,7 +11,7 @@ import matplotlib.pyplot as pyplot
 import numpy as np
 
 
-# Expects a .wav file with 0.5 seconds of a sound sampled at 44100Hz
+# Expects a mono .wav file with 0.5 seconds of a sound sampled at 44100Hz
 # Use a hard coded path or provide one at runtime
 if(len(sys.argv) == 1):
     input_path = ""
